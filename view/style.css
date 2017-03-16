@@ -1,0 +1,176 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+@media only screen and (min-width : 420px){
+	.table-row-equal {
+		display: inline;
+		width: 100%;
+		table-layout: fixed;
+		word-wrap: break-word;
+		border-spacing: 5px 5px;
+	}
+	.table-row-equal .thumbnail {
+		float: none;
+		display: table-cell;
+		width: 1%;
+		box-shadow: 10px 10px 10px #c6c6c6;
+	}
+}
+
+.pencarian{
+	width: 100%;
+	float: left;
+	margin-left: 0px;
+}
+.kategori{
+	width: 100%;
+	display: inline;
+	font-family: sans-serif;
+	text-shadow: 2px 2px #b1aaaa;
+}
+.pagination{
+	margin-left: 30px;
+}
+
+/* ini adalah navbar style */
+.Home{
+	border-bottom: thick solid #64df83;
+	text-shadow: 2px 2px #616161;
+}
+
+.Komputer{
+	border-bottom: thick solid #41e4e4;
+	text-shadow: 2px 2px #616161;
+}
+
+.TechNews{
+	border-bottom: thick solid #f042e9;
+	text-shadow: 2px 2px #616161;
+}
+.Tips{
+	border-bottom: thick solid #fff352;
+	text-shadow: 2px 2px #616161;
+}
+.Tambah{
+	border-bottom: thick solid #fa3939;
+	text-shadow: 2px 2px #616161;
+}
+.Login{
+	border-bottom: thick solid #ffdf37;
+	text-shadow: 2px 2px #616161;
+}
+.Logout{
+	border-bottom: thick solid #7e74ed;
+	text-shadow: 2px 2px #616161;
+}
+.jarkom{
+	text-shadow: 2px 2px #616161;
+}
+/* responsive header */
+@media only screen and (max-width: 767px){
+	.Home{
+		border-bottom: none;
+		border-left: thick solid #64df83;
+		text-shadow: 2px 2px #616161;
+	}
+
+	.Komputer{
+		border-bottom: none;
+		border-left: thick solid #41e4e4;
+		text-shadow: 2px 2px #616161;
+	}
+
+	.TechNews{
+		border-bottom: none;
+		border-left: thick solid #f042e9;
+		text-shadow: 2px 2px #616161;
+	}
+	.Tips{
+		border-bottom: none;
+		border-left: thick solid #fff352;
+		text-shadow: 2px 2px #616161;
+	}
+	.Tambah{
+		border-bottom: none;
+		border-left: thick solid #fa3939;
+		text-shadow: 2px 2px #616161;
+	}
+	.Login{
+		border-bottom: none;
+		border-left: thick solid #ffdf37;
+		text-shadow: 2px 2px #616161;
+	}
+	.Logout{
+		border-bottom: none;
+		border-left: thick solid #7e74ed;
+		text-shadow: 2px 2px #616161;
+	}
+}
+
+/* footer strip */
+
+.footer{
+	border-top: thick solid #77ed74;
+}
+
+/* animasi */
+.zoom{
+	margin-left: auto;
+	margin-right: auto;
+}
+.zoom:hover{
+	transform: scale(1.08);
+	transition: 0.1s ease;
+}
+
+@media screen and (max-width:700px) {
+	#copyright{
+			bottom: 0;
+	    width: 100%;
+	    position: relative;
+	    height:50px;
+	    line-height:50px;
+	    background:#3c3a3a;
+	    color:#fff;
+	    padding-left: 10px;
+	  }
+
+	#withlove{
+		display: none;
+	}
+
+	.menufooter{
+		display: none;
+	}
+
+}
+
+#withlove{
+  float: right;
+  padding-right: 10px;
+}
+#copyright{
+		bottom: 0;
+    width: 100%;
+    position: relative;
+    height:50px;
+    line-height:50px;
+    background:#37586f;
+    color:#fff;
+    padding-left: 10px;
+  }
+
+#judul_single{
+  font-size: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#tag_single{
+  font-style: italic;
+}
+#kontainer{
+	min-height: 100%;
+}
